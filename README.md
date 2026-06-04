@@ -12,6 +12,7 @@ Welcome to the official firmware repository for the **SmartGlass Project**. This
 
 * 🎙️ **Real-Time AI Voice Assistants**: Native WebSocket integration with **Google Gemini** and **OpenAI Realtime** APIs. Includes onboard wake-word detection (WakeNet) and Voice Activity Detection (VAD).
 * 📹 **WebRTC Video Streaming**: Ultra-low latency H.264 video streaming directly from the glasses' camera to the Android companion app.
+* 📹 **WebRTC & UDP H.264 Video Streaming**: Supports ultra-low-latency H.264 video transmission from the SmartGlass camera to companion applications using both **WebRTC** and a custom **UDP streaming pipeline**. WebRTC provides NAT traversal, adaptive bitrate control, and secure real-time communication, while UDP mode offers minimal overhead and reduced latency for local-network viewing and embedded receiver applications. Supports hardware-encoded H.264 video, configurable bitrate/FPS, and direct streaming to Android, Linux, or custom clients.
 * 📲 **BLE Companion App Sync**: Uses Bluetooth Low Energy (NimBLE) for fast Wi-Fi provisioning, API key syncing, and real-time hardware diagnostics.
 * 🔄 **Safe Over-The-Air (OTA) Updates**: Automated background updates directly from GitHub Releases using dual-partition fallback protection.
 * 💳 **Onboard Vision & QR Scanning**: Built-in QR decoding for automatic UPI payment routing and AI computer vision integration.
